@@ -5,9 +5,9 @@ private void loginBtnActionPerformed(java.awt.event.ActionEvent evt)
 {
    String uid=uidTF.getText();
    String per=newString(pwdPF.getPassword());
-   if(uid.equals("Ashwathi"))
+   if(uid.equals("Ashwathi Sugathan"))
 {
-   if(pwd.equals("12345")
+   if(pwd.equals("123456")
          JOptionPane.showMessageDialog(null,"Login Successful");
    else
          JOptionPane.showMessageDialog(null,"Wrong Password");
